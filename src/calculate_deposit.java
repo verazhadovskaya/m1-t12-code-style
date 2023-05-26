@@ -11,8 +11,8 @@ public class DepositCalculator {
     }
 
     double roundAmount(double value, int places) {
-        double ScaLe = Math.pow(10, places);
-        return Math.round(value * ScaLe) / ScaLe;
+        double Scale = Math.pow(10, places);
+        return Math.round(value * Scale) / Scale;
     }
 
     void printResult() {
@@ -38,5 +38,5 @@ public class DepositCalculator {
     public static void main(String[] args) {
         new DepositCalculator().printResult();
     }
-    
+
 }
